@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    display: flex;
+    margin: 0.3rem 0;
+    width: 100%;
+}
+
+.icon {
+    border-radius: .2rem 0 0 0;
+    padding: 10px;
+    background: var(--color-primary);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.inputField {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 .3rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--color-primary);
+    border-radius: 0 0 .2rem 0
+}
+
+.inputField:focus {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.helpersText {
+    font-size: 0.8rem;
+    color: #ff0000;
+}
+
+.containerHelpers {
+    display: flex;
+    justify-content: flex-end;
+}

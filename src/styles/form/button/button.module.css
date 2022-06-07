@@ -1,0 +1,21 @@
+.btn {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    background-color: var(--color-primary);
+    color: #FFF;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    transition: .3s;    
+}
+
+.btn:hover {
+    background-color: var(--color-primary-soft);
+}
+
+.btn:active {
+    background-color: var(--color-altenative);
+}
